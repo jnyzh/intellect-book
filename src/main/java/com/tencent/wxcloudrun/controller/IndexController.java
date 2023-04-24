@@ -31,7 +31,7 @@ public class IndexController {
 
   //上传小程序快照
   @ResponseBody
-  @RequestMapping(value = "/uploadShot",method = RequestMethod.POST)
+  @RequestMapping(value = "/uploadShot")
   public Map<String,Object> findIndex(@RequestParam(value="before") String before_path,
                                       @RequestParam(value="after") String after_path){
     ImageListener imageListener = new ImageListener(before_path, after_path);
