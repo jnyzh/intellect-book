@@ -19,4 +19,7 @@ public class IndexController {
     return "index";
   }
 
+  @ResponseBody
+  @RequestMapping(value = "/success")
+  public String success(){return "success"}
 }
