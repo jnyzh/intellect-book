@@ -21,5 +21,5 @@ public class IndexController {
 
   @ResponseBody
   @RequestMapping(value = "/success")
-  public String success(){return "success"}
+  public String success(){return "success";}
 }
